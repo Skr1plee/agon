@@ -1,0 +1,110 @@
+{
+    "1":{
+        "name":"4K TV Game Mini Arcade Rocker Console 32GB/64GB",
+        "price": 229.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/image 6.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Sony"
+    },
+    "2":{
+        "name":"Cancelling Headset Music Sport Deep Bass",
+        "price": 339.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/2e2ce4ab4b0f5ed3ecc0087c60104b0c_1-removebg-preview 1.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Google"
+    },
+    "3":{
+        "name":"T500BT Original Wireless Bluetooth Headphone",
+        "price": 469.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/image_4-removebg-preview (1) 2@2x.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Apple"
+    },
+    "4":{
+        "name":"Black Walnut Wood & Aluminum Headphone Stand",
+        "price": 370.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/JBL-TUNE-750BTNC-Wireless-Over-Ear-Headphones-Blue-1-300x300-removebg-preview 1.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Toshiba"
+    },
+    "5":{
+        "name":"Beats Studio3 Wireless Bluetooth Headphones",
+        "price": 529.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/download__31_-removebg-preview 1.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Sony"
+    },
+    "6":{
+        "name":"Marshall MAJOR III Wireless Folding Bluetooth",
+        "price": 539.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/6430060cv12d-removebg-preview 1.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Konika"
+    },
+    "7":{
+        "name":"T500BT Original Wireless Bluetooth Headphone",
+        "price": 369.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/image_1-removebg-preview (1) 2.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Apple"
+    },
+    "8":{
+        "name":"Black Walnut Wood & Aluminum Headphone Stand",
+        "price": 470.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/Bose-Noise-Cancelling-Headphones-700 1.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Toshiba"
+    },
+    "9":{
+        "name":"Beats Studio3 Wireless Bluetooth Headphones",
+        "price": 329.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/2537650_3f22ba667907_1-removebg-preview 1.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Sony"
+    },
+    "10":{
+        "name":"Marshall MAJOR III Wireless Folding Bluetooth",
+        "price": 339.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/TOUCHit_reddot_black_530x_2x_1-removebg-preview 1.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Konika"
+    },
+    "11":{
+        "name":"T500BT Original Wireless Bluetooth Headphone",
+        "price": 669.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/360_F_95954761_O4fqMb38wmoY9P5iJbCO7afroqjAfJru-removebg-preview 1.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Apple"
+    },
+    "12":{
+        "name":"Black Walnut Wood & Aluminum Headphone Stand",
+        "price": 470.80,
+        "description": "It is a long estiabs lished fack a reader will be service.",
+        "image": "images/14946-10857-Screen-Shot-2015-11-13-at-23723-PM-xl-removebg-preview 1.png",
+        "weight": "125 гр",
+        "size": "25x25",
+        "category": "Toshiba"
+    }
+}
