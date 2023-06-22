@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Work Sans; /* Гарнитура шрифта */
-    src: url(fonts/Work_Sans/WorkSans-VariableFont_wght.ttf); /* Путь к файлу со шрифтом */
+    font-family: Work Sans; 
+    src: url(fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
 }
 
 .menu{
@@ -39,7 +39,7 @@
     font-size: 16px;
     font-weight: 500;
 }
-/* при наведении на пункт меню изменяется цвет */
+
 .menu-item:hover{
     color: #006D77;
 }
@@ -91,7 +91,6 @@
 .card{
     width: 255px;
     height: 371px;
-    /* display: flex; */
     padding-top: 32px;
     padding-left: 15px;
     padding-right: 15px; 
@@ -107,8 +106,6 @@
 }
 
 .img-1{
-    /* width: 133px;
-    height: 159px; */
     margin: 0 auto;
 }
 
@@ -196,7 +193,6 @@
 flex-grow:2;
 border:none;
 border-radius: 53px;
-
 }
 
 #form-news-input:focus {
@@ -213,19 +209,9 @@ outline: none;
     width: 53px;;
 }
 
-/* .hide {
-    animation-name: hide; 
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; 
-    display: none;
-    
-
-} */
-
 @keyframes hide {
     0% {
         visibility: visible;
-        /* height: 200px; */
     }
 
     100% {
@@ -238,18 +224,17 @@ outline: none;
     }
 }
 
-
 @media (max-width:1024px){
 
     .menu{
         font-size: 16px;
         font-weight: 500;
-        column-gap: 50px; /*уменьшить расстояние между лого, меню и кнопкой*/
+        column-gap: 50px;
         
     }
 
     .menu-items{
-        column-gap: 20px; /*уменьшить расстояние между пунктами*/
+        column-gap: 20px; 
         justify-content: center;
         
     }
@@ -257,7 +242,7 @@ outline: none;
     .catalog{
         display: flex;
         flex-wrap: wrap;
-        width: 825px; /*уменьшить ширину блока (минус ширина карточки товара (255px) + одно расстояние между карточками (30px))*/
+        width: 825px;
         justify-content: center;
         padding-top: 31px;
         column-gap: 30px;
@@ -274,22 +259,22 @@ outline: none;
     .menu{
         font-size: 16px;
         font-weight: 500;
-        column-gap: 50px; /*уменьшить расстояние между лого, меню и кнопкой*/
+        column-gap: 50px; 
     }
 
     .filter{
-        padding-top: 43px; /*замените внешний отступ сверху на внутренний*/
+        padding-top: 43px; 
         display: flex;
         justify-content: flex-start;
-        margin: 0 auto; /*выравните по центру*/
-        column-gap: 10px; /*уменьшите расстояние между кнопками фильтра*/
+        margin: 0 auto;
+        column-gap: 10px; 
         
     }
 
     .catalog{
         display: flex;
         flex-wrap: wrap;
-        width: 575px; /*уменьшить ширину блока (минус ширина карточки товара (255px) + одно расстояние между карточками (30px))*/
+        width: 575px; 
         justify-content: flex-end;
         padding-top: 30px;
         column-gap: 10px;

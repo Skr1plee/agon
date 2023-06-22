@@ -10,16 +10,14 @@
     <title>Document</title>
 </head>
 <body>
-    <!--header + адаптив кнопок под "гамбургер"-->
-    <nav class="navbar fixed-top sticky-top navbar-expand-md navbar-light bg-white">
+    <nav class="navbar fixed-top sticky-top navbar-expand-md navbar-light bg-white"> <!--header + адаптив кнопок под "гамбургер"-->
         <div class="container menu">
             <img src="images/logo.png" alt="" class="navbar-brand">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!--кнопки в header-->
-            <div class="collapse navbar-collapse " id="navbarContent">
+            <div class="collapse navbar-collapse " id="navbarContent"> <!--кнопки в header-->
                 <ul class="navbar-nav menu-items">
                     <li> <a class="menu-item" href="#">Home</a></li>
                     <li> <a class="menu-item " href="#">About</a></li>
@@ -34,14 +32,10 @@
             </div>
         </div>
     </nav>
-
-    <!-- заголовок -->
     <h1 class="h-1">
         Featured Products For Pre-Order
     </h1>
-
-    <!-- меню фильтра -->
-    <div class="container">
+    <div class="container"> <!--фильтр для каталога-->
         <div class="filter">
             <button id="button" class="button-filter" data-filter="All" >All</button>
             <button id="button" class="button-filter" data-filter="Sony" >Sony</button>
@@ -51,10 +45,7 @@
             <button id="button" class="button-filter" data-filter="Konika" >Konika</button>
         </div>
     </div>
-
-
-    <!-- каталог -->
-    <div class="catalog">
+    <div class="catalog"> <!-- каталог с карточками товара -->
         <div class="card">
             <div class="card-img"><img src="images/sony1.png" alt="" class="img-1"></div>
             <div class="card-cat">Sony</div>
@@ -248,23 +239,15 @@
             </div>
         </div>
     </div>
-
-
-    <!-- подвал -->
+    <!--footer-->
     <div class="footer">
         <img src="images/logo_footer.png" alt="" class="footer-logo">
         <h2 class="footer-text">Подпишитесь на новости</h2>
-        
         <form id="form-news" class="footer-input">
             <input type="text" name="" id="from-news-input" placeholder="Введите почту">
             <button id="form-news-button" type="submit"></button>
-
         </form>
     </div>
-
-    
-
-
     <script src="js/bootstrap.js"></script>
     <script src="js/loading.js"></script>
     <script src="js/filter.js"></script>
