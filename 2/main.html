@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- шапка -->
+    <!-- для того чтобы при уменьшении экрана появлялась кнопка гамбургер, добавьте классы boostrap, отвечающие за создание данной кнопки -->
+    <nav class="navbar fixed-top sticky-top navbar-expand-md navbar-light bg-white">
+        <div class="container menu">
+            <!-- логотип -->
+            <img src="images/logo.png" alt="" class="navbar-brand">
+            <!-- кнопка гамбургер -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- пункту меню -->
+            <div class="collapse navbar-collapse " id="navbarContent">
+                <ul class="navbar-nav menu-items">
+                    <li> <a class="menu-item" href="#">Home</a></li>
+                    <li> <a class="menu-item " href="#">About</a></li>
+                    <li> <a class="menu-item" href="#">Company</a></li>
+                    <li> <a class="menu-item" href="#">Pages</a></li>
+                    <li> <a class="menu-item" href="#">Blog</a></li>
+                    <li> <a class="menu-item" href="#">Shop</a></li>
+                </ul>
+            
+                <div class="d-flex ">
+                    <button class="button-menu">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- заголовок -->
+    <h1 class="h-1">
+        Featured Products For Pre-Order
+    </h1>
+
+    <!-- меню фильтра -->
+    <div class="container">
+        <div class="filter">
+            <button id="button" class="button-filter" data-filter="All" >All</button>
+            <button id="button" class="button-filter" data-filter="Sony" >Sony</button>
+            <button id="button" class="button-filter" data-filter="Google" >Google</button>
+            <button id="button" class="button-filter" data-filter="Apple" >Apple</button>
+            <button id="button" class="button-filter" data-filter="Toshiba" >Toshiba</button>
+            <button id="button" class="button-filter" data-filter="Konika" >Konika</button>
+        </div>
+    </div>
+
+
+    <!-- каталог -->
+    <div class="catalog">
+        <div class="card">
+            <div class="card-img"><img src="images/sony1.png" alt="" class="img-1"></div>
+            <div class="card-cat">Sony</div>
+            <div class="card-name">4K TV Game Mini Arcade Rocker Console 32GB/64GB</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">229.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/google1.png" alt="" class="img-2"></div>
+            <div class="card-cat">Google</div>
+            <div class="card-name">Cancelling Headset Music Sport Deep Bass</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">339.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/apple1.png" alt="" class="img-3"></div>
+            <div class="card-cat">Apple</div>
+            <div class="card-name">T500BT Original Wireless Bluetooth Headphone</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">469.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/toshiba1.png" alt="" class="img-4"></div>
+            <div class="card-cat">Toshiba</div>
+            <div class="card-name">Black Walnut Wood & Aluminum Headphone Stand</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">370.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/sony2.png" alt="" class="img-5"></div>
+            <div class="card-cat">Sony</div>
+            <div class="card-name">Beats Studio3 Wireless Bluetooth Headphones</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">529.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/konika1.png" alt="" class="img-6"></div>
+            <div class="card-cat">Konika</div>
+            <div class="card-name">Marshall MAJOR III Wireless Folding Bluetooth</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">539.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/aplle2.png" alt="" class="img-7"></div>
+            <div class="card-cat">Apple</div>
+            <div class="card-name">T500BT Original Wireless Bluetooth Headphone</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">369.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/toshiba2.png" alt="" class="img-8"></div>
+            <div class="card-cat">Toshiba</div>
+            <div class="card-name">Black Walnut Wood & Aluminum Headphone Stand</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">470.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/sony3.png" alt="" class="img-9"></div>
+            <div class="card-cat">Sony</div>
+            <div class="card-name">Beats Studio3 Wireless Bluetooth Headphones</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">329.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/konika2.png" alt="" class="img-10"></div>
+            <div class="card-cat">Konika</div>
+            <div class="card-name">Marshall MAJOR III Wireless Folding Bluetooth</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">339.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/aplle3.png" alt="" class="img-11"></div>
+            <div class="card-cat">Apple</div>
+            <div class="card-name">T500BT Original Wireless Bluetooth Headphone</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">669.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/tosiba3.png" alt="" class="img-12"></div>
+            <div class="card-cat">Toshiba</div>
+            <div class="card-name">Black Walnut Wood & Aluminum Headphone Stand</div>
+            <svg width="74" height="14" viewBox="0 0 74 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.99996 0L4.77994 4.37495L0 5.16906L3.40783 8.66706L2.6738 13.5328L7 11.3197L11.3262 13.5328L10.5922 8.66706L14 5.16906L9.22006 4.37495L6.99996 0Z" fill="#FFD166"/>
+                <path d="M22 0L19.7799 4.37495L15 5.16906L18.4078 8.66706L17.6738 13.5328L22 11.3197L26.3262 13.5328L25.5922 8.66706L29 5.16906L24.2201 4.37495L22 0Z" fill="#FFD166"/>
+                <path d="M37 0L34.7799 4.37495L30 5.16906L33.4078 8.66706L32.6738 13.5328L37 11.3197L41.3262 13.5328L40.5922 8.66706L44 5.16906L39.2201 4.37495L37 0Z" fill="#FFD166"/>
+                <path d="M52 0L49.7799 4.37495L45 5.16906L48.4078 8.66706L47.6738 13.5328L52 11.3197L56.3262 13.5328L55.5922 8.66706L59 5.16906L54.2201 4.37495L52 0Z" fill="#FFD166"/>
+                <path d="M67 0L64.7799 4.37495L60 5.16906L63.4078 8.66706L62.6738 13.5328L67 11.3197L71.3262 13.5328L70.5922 8.66706L74 5.16906L69.2201 4.37495L67 0Z" fill="#DFDEDC"/>
+            </svg>
+            <div class="card-block">
+                <div class="price">470.80</div>
+                <button class="card-button">подробнее</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- подвал -->
+    <div class="footer">
+        <img src="images/logo_footer.png" alt="" class="footer-logo">
+        <h2 class="footer-text">Подпишитесь на новости</h2>
+        <input type="text" name="" id="" class="footer-input" placeholder="Введите почту">
+    </div>
+
+    
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+</html>
