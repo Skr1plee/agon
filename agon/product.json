@@ -1,0 +1,112 @@
+{
+    "1":{
+        "name":"4K TV Game Mini Arcade Rocker Console 32GB/64GB",
+        "price": 229.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/sony1.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Sony"
+    },
+    "2":{
+        "name":"Cancelling Headset Music Sport Deep Bass",
+        "price": 339.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/google1.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Google"
+    },
+    "3":{
+        "name":"T500BT Original Wireless Bluetooth Headphone",
+        "price": 469.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/apple1.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Apple"
+    },
+    "4":{
+        "name":"Black Walnut Wood & Aluminum Headphone Stand",
+        "price": 370.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/toshiba1.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Toshiba"
+    },
+    "5":{
+        "name":"Beats Studio3 Wireless Bluetooth Headphones",
+        "price": 529.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/sony2.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Sony"
+    },
+    "6":{
+        "name":"Marshall MAJOR III Wireless Folding Bluetooth",
+        "price": 539.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/konika1.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Konika"
+    },
+    "7":{
+        "name":"T500BT Original Wireless Bluetooth Headphone",
+        "price": 369.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/aplle2.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Apple"
+    },
+    "8":{
+        "name":"Black Walnut Wood & Aluminum Headphone Stand",
+        "price": 470.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/toshiba2.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Toshiba"
+    },
+    
+    "9":{
+        "name":"Beats Studio3 Wireless Bluetooth Headphones",
+        "price": 329.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/sony3.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Sony"
+    },
+    "10":{
+        "name":"Marshall MAJOR III Wireless Folding Bluetooth",
+        "price": 339.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/konika2.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Konika"
+    },
+    "11":{
+        "name":"T500BT Original Wireless Bluetooth Headphone",
+        "price": 669.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/aplle3.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Apple"
+    },
+    "12":{
+        "name":"Black Walnut Wood & Aluminum Headphone Stand",
+        "price": 470.80,
+        "description":"It is a long estiabs lished fact that a reader will be the service.",
+        "image": "images/tosiba3.png",
+        "weight": "125 гр",
+        "size":"25x25",
+        "category":"Toshiba"
+    }
+}
+

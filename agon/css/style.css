@@ -1,0 +1,310 @@
+@font-face {
+    font-family: Work Sans; /* Гарнитура шрифта */
+    src: url(fonts/Work_Sans/WorkSans-VariableFont_wght.ttf); /* Путь к файлу со шрифтом */
+}
+
+.menu{
+    font-size: 16px;
+    font-weight: 500;
+    column-gap: 114px;
+    
+}
+
+.menu-items{
+    column-gap: 50px;
+    justify-content: center;
+    
+}
+
+.navbar-collapse{
+    justify-content: center;
+    column-gap: 114px;
+}
+
+.button-menu{
+    width: 137px;
+    height: 45px;
+    border-radius: 47px;
+    background: #101828;
+    color: white;
+}
+
+.menu-item{
+    color: black;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 45px;
+    height: 24px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* при наведении на пункт меню изменяется цвет */
+.menu-item:hover{
+    color: #006D77;
+}
+
+.h-1{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 43px;
+    width: 477px;
+    height: 127px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.filter{
+    margin-top: 43px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: right;
+    column-gap: 30px;
+    
+}
+
+.button-filter{
+    border: none;
+    background: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.045em;
+    color: #101828;
+}
+
+.button-filter:hover{
+    color: #006D77;
+}
+
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1110px;
+    justify-content: center;
+    padding-top: 31px;
+    column-gap: 30px;
+    margin: 0 auto;
+    row-gap: 30px;
+}
+
+.card{
+    width: 255px;
+    height: 371px;
+    /* display: flex; */
+    padding-top: 32px;
+    padding-left: 15px;
+    padding-right: 15px; 
+
+    
+}
+
+.card-img{
+    
+    text-align: center;
+    min-width: 130px;
+    min-height: 160px;
+}
+
+.img-1{
+    /* width: 133px;
+    height: 159px; */
+    margin: 0 auto;
+}
+
+.card-cat{
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 24px;
+}
+
+.card-name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 9px;
+}
+
+.card-block{
+    display: flex;
+    padding-top: 18px;
+    justify-content: space-between;
+}
+
+.price{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #006D77;
+}
+
+.card-button{
+    width: 93px;
+    height: 23px;
+    background: #BEE1E6;
+    border-radius: 6px;
+    border: none;
+    color: #006D77;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.footer{
+    margin-top: 53px;
+    background-color: #006D77;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.footer-logo{
+    padding-top: 42px;
+    padding-bottom: 24px;
+}
+
+.footer-text{
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.footer-input{
+    background: #FFFFFF;
+    border-radius: 53px;
+    margin-top: 24px;
+    width: 360px;
+    height: 59px;
+    border: none;
+    padding-left: 28px;
+    cursor: pointer;
+}
+
+
+.anime {
+    transform: scale(0);
+    opacity: 0;
+}
+
+#form-news {
+    margin-left: 33.5%;
+    
+    display:flex;
+    flex-direction:row;
+    border:1px solid grey;
+}
+
+#from-news-input {
+flex-grow:2;
+border:none;
+border-radius: 53px;
+
+}
+
+#form-news-input:focus {
+outline: none;
+}
+
+#form-news-button{
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none"><g filter="url(%23filter0_d_23_534)"><circle cx="40" cy="40" r="21" fill="%23006D77"/><path d="M30 40.6669L47.5513 40.6669L40.9091 45.9582L41.6354 47L50 39.9775L41.6354 33L40.9091 33.9968L47.5513 39.2881L30 39.2881L30 40.6669Z" fill="%23fff"/></g><defs><filter id="filter0_d_23_534" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feMorphology radius="5" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_23_534"/><feOffset/><feGaussianBlur stdDeviation="7"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_23_534"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_23_534" result="shape"/></filter></defs></svg>');
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 53px;
+    border:none;
+    background-color: white;
+    width: 53px;;
+}
+
+/* .hide {
+    animation-name: hide; 
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; 
+    display: none;
+    
+
+} */
+
+@keyframes hide {
+    0% {
+        visibility: visible;
+        /* height: 200px; */
+    }
+
+    100% {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        max-width: 0;
+        font-size: 0;
+        margin: 0;
+    }
+}
+
+
+@media (max-width:1024px){
+
+    .menu{
+        font-size: 16px;
+        font-weight: 500;
+        column-gap: 50px; /*уменьшить расстояние между лого, меню и кнопкой*/
+        
+    }
+
+    .menu-items{
+        column-gap: 20px; /*уменьшить расстояние между пунктами*/
+        justify-content: center;
+        
+    }
+
+    .catalog{
+        display: flex;
+        flex-wrap: wrap;
+        width: 825px; /*уменьшить ширину блока (минус ширина карточки товара (255px) + одно расстояние между карточками (30px))*/
+        justify-content: center;
+        padding-top: 31px;
+        column-gap: 30px;
+        margin: 0 auto;
+        row-gap: 30px;
+    }
+
+    .footer {
+        margin-right: -255px;
+    }
+}
+
+@media (max-width:768px){
+    .menu{
+        font-size: 16px;
+        font-weight: 500;
+        column-gap: 50px; /*уменьшить расстояние между лого, меню и кнопкой*/
+    }
+
+    .filter{
+        padding-top: 43px; /*замените внешний отступ сверху на внутренний*/
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto; /*выравните по центру*/
+        column-gap: 10px; /*уменьшите расстояние между кнопками фильтра*/
+        
+    }
+
+    .catalog{
+        display: flex;
+        flex-wrap: wrap;
+        width: 575px; /*уменьшить ширину блока (минус ширина карточки товара (255px) + одно расстояние между карточками (30px))*/
+        justify-content: flex-end;
+        padding-top: 30px;
+        column-gap: 10px;
+        margin: 0 auto;
+        row-gap: 10px;
+    }
+
+    #form-news {
+        margin-left: 17.5%;
+        display:flex;
+        flex-direction:row;
+        border:1px solid grey;
+    }
+
+    .footer {
+        margin-right: -255px;
+    }
+}
