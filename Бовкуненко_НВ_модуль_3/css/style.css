@@ -1,0 +1,244 @@
+@font-face {
+font-family: "Sofia Sans";
+src: url("fonts/SofiaSans-VariableFont_wght.ttf") format("ttf"),
+url("fonts/SofiaSans-Italic-VariableFont_wght.ttf") format("ttf"),
+url("fonts/Inter-VariableFont_slnt,wght.ttf") format("ttf");
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+
+{
+font-family: 'SofiaSans';
+}
+@media screen and (max-width: 1280px) {
+div.contentblock {
+width: 1200px;
+}
+}
+
+.menu {
+font-size: 16px;
+font-weight: 500;
+column-gap: 250px;
+}
+
+@media screen and (max-width: 1280px) {
+.menu {
+column-gap: 40px;
+}
+}
+
+.menu-items {
+column-gap: 40px;
+justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+.menu-items {
+column-gap: 20px;
+}
+}
+
+.menu-item {
+color: rgb(0, 0, 0);
+text-decoration: none;
+margin: 0 auto;
+width: 45px;
+height: 24px;
+padding: 8px;
+font-size: 16px;
+font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+.menu-item {
+width: 35px;
+height: 20px;
+padding: 6px;
+font-size: 14px;
+}
+}
+
+{
+font-family: 'SofiaSans';
+}
+.menu-1 {
+text-decoration: underline;
+}
+
+@media screen and (max-width: 1280px) {
+.h-1 {
+margin: 0 200px;
+width: 377px;
+height: 101px;
+font-size: 40px;
+}
+}
+
+.color-g {
+color: #18BD4F;
+font-style: italic;
+}
+
+@media screen and (max-width: 1280px) {
+.filter {
+margin-top: 20px;
+margin-right: 100px;
+column-gap: 10px;
+}
+}
+
+.button-filter {
+border: none;
+background: none;
+font-weight: 500;
+font-size: 16px;
+color: black;
+}
+
+.catalog {
+display: flex;
+flex-wrap: wrap;
+width: 1450px;
+justify-content: center;
+padding-top: 31px;
+padding-bottom: 103px;
+column-gap: 30px;
+margin: 0 auto;
+row-gap: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+.catalog {
+width: 100%;
+padding-left: 20px;
+padding-right: 20px;
+}
+}
+
+.card {
+width: 280px;
+height: 365px;
+padding-top: 32px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+@media screen and (max-width: 1280px) {
+.card {
+width: 200px;
+height: 300px;
+padding-top: 20px;
+}
+}
+
+.card-img {
+text-align: center;
+min-width: 130px;
+min-height: 160px;
+}
+
+@media screen and (max-width: 1280px) {
+.card-img {
+min-width: 100px;
+min-height: 130px;
+}
+}
+
+.img-1 {
+margin: 0 auto;
+}
+
+.card-cat {
+text-align: right;
+font-weight: 400;
+font-size: 12px;
+padding-top: 0px;
+}
+
+.card-name {
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+.card-name {
+font-size: 14px;
+line-height: 18px;
+}
+}
+
+.card-block {
+display: flex;
+justify-content: flex-up;
+padding-top: 18px;
+}
+
+.price {
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+}
+
+@media screen and (max-width: 1280px) {
+.price {
+font-size: 14px;
+}
+}
+
+.card-button {
+width: 93px;
+height: 23px;
+background: #18BD4F;
+border-radius: 6px;
+border: none;
+color: white;
+font-weight: 500;
+font-size: 12px;
+}
+
+.footer {
+    background-image: url('/images/LOGO_FOOTER.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 23px;
+    padding: 20px;
+    color: white;
+  }
+
+  .footer-text {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .email-input {
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    position: absolute;
+    background-color: #4CAF50;
+    border-radius: 53px ;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+@media screen and (min-width:320px) and (max-width:768px) {
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1280px) {

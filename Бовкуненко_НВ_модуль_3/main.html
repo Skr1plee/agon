@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Еда в дом. Интернет-магазин. </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.6.3.min.js"></script>
+</head>
+<body>
+    <!-- шапка -->
+    <nav class="navbar fixed-top sticky-top navbar-expand-md navbar-light bg-white">
+        <div class="container menu">
+            <!-- Логотип -->
+            <h2><span class="color-g">Еда в дом</span>.</h2>
+            <!-- кнопка гамбургер -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav menu-items">
+                    <li><a class="menu-item menu-1" href="#">Главная</a></li>
+                    <li><a class="menu-item" href="#">Каталог</a></li>
+                    <li><a class="menu-item" href="#">Новые продукты</a></li>
+                    <li><a class="menu-item" href="#">О нас</a></li>
+                    <li><a class="menu-item" href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <img src="images/Profile.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Заголовок -->
+    <h1 class="h-1">
+        <p align="center">Наше<span class="color-g"> меню</span>
+    </p></h1>
+
+    <!-- меню фильтра -->
+    <div class="container">
+        <div class="filter">
+            <button id="button" class="button-filter" data-filter="Up" >По цене</button><img src="images/Vector.svg" alt="">
+            <button id="button" class="button-filter" data-filter="Down" >По цене</button><img src="images/Vector-1.svg" alt="">
+            <button id="button" class="button-filter" data-filter="News" >Сначала новинки</button>
+        </div>
+    </div>
+
+     <!-- каталог -->
+    <div class="catalog">
+        <div class="card">
+            <div class="card-cat"><img src="images/Heart.svg" alt=""></div>
+            <div class="card-img"><img src="images/one-fresh-red-tomato-isolated-white-removebg-preview 1.png" alt="" class="img-1"></div>
+            <div class="price">80₽/кг</div>
+            <div class="card-name">Помидоры</div>
+            <div class="card-cat">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+            <div class="card-block">
+                <button class="card-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-cat"><img src="images/Heart.svg" alt=""></div>
+            <div class="card-img"><img src="images/raw-meat-removebg-preview 1.png" alt="" class="img-1"></div>
+            <div class="price">600₽/кг</div>
+            <div class="card-name">Мясо</div>
+            <div class="card-cat">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+            <div class="card-block">
+                <button class="card-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-cat"><img src="images/Heart.svg" alt=""></div>
+            <div class="card-img"><img src="images/fresh-background-potatoes-close-nutrition-removebg-preview 1.png" alt="" class="img-1"></div>
+            <div class="price">60₽/кг</div>
+            <div class="card-name">Картофель</div>
+            <div class="card-cat">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+            <div class="card-block">
+                <button class="card-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-cat"><img src="images/Heart.svg" alt=""></div>
+            <div class="card-img"><img src="images/close-up-view-cauliflower-purple-background-with-copy-space__1_-removebg-preview 1.png" alt="" class="img-1"></div>
+            <div class="price">60₽/кг</div>
+            <div class="card-name">Капуста</div>
+            <div class="card-cat">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+            <div class="card-block">
+                <button class="card-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-cat"><img src="images/Heart.svg" alt=""></div>
+            <div class="card-img"><img src="images/mockup-graphics-UrLT3x0x9sA-unsplash-removebg-preview 1.png" alt="" class="img-1"></div>
+            <div class="price">55₽/кг</div>
+            <div class="card-name">Огурцы</div>
+            <div class="card-cat">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+            <div class="card-block">
+                <button class="card-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-cat"><img src="images/Heart.svg" alt=""></div>
+            <div class="card-img"><img src="images/mockup-graphics-vVjA1KeKg-w-unsplash-removebg-preview 1.png" alt="" class="img-1"></div>
+            <div class="price">120₽/кг</div>
+            <div class="card-name"><Бананы></div>
+            <div class="card-cat">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+            <div class="card-block">
+                <button class="card-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-cat"><img src="images/Heart.svg" alt=""></div>
+            <div class="card-img"><img src="images/mockup-graphics-bC1fXU1v98U-unsplash-removebg-preview 1.png" alt="" class="img-1"></div>
+            <div class="price">40₽/кг</div>
+            <div class="card-name">Лук</div>
+            <div class="card-cat">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+            <div class="card-block">
+                <button class="card-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-cat"><img src="images/Heart.svg" alt=""></div>
+            <div class="card-img"><img src="images/chick-pea-wooden-bowl-wooden-surface-removebg-preview (1) 1.png" alt="" class="img-1"></div>
+            <div class="price">120₽/кг</div>
+            <div class="card-name">Нуд</div>
+            <div class="card-cat">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+            <div class="card-block">
+                <button class="card-button">Купить</button>
+            </div>
+        </div> 
+
+    <!-- подвал -->
+    <div class="footer">
+        <div class="footer-text">Присоединяйтесь к нам и получите скидку до 50%</div>
+        <div class="footer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum temporibus dolorem sit illo provident reprehenderit consectetur repudiandae officiis.</div>
+        <input type="email" class="email-input" placeholder="Введите ваш email">
+        <button class="submit-button">Войти</button>
+      </div>
+    </div>
+</body>
+</html>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/loading.js"></script>
